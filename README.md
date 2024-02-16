@@ -2,7 +2,7 @@
 ## Image Steganography dengan Python wavelet
 
 ## Deskripsi
-Proyek ini menggunakan transformasi gelombang (wavelet transformation) untuk (masukkan tujuan di sini). Transformasi gelombang adalah alat yang kuat dalam pemrosesan sinyal dan kompresi data, memungkinkan untuk (penjelasan singkat tentang manfaatnya dalam konteks proyek Anda).
+Proyek ini menggunakan transformasi gelombang (wavelet transformation) untuk (masukkan tujuan di sini). Transformasi gelombang adalah alat yang kuat dalam pemrosesan sinyal dan kompresi data, memungkinkan untuk menyisipkan text ke dalam sebuah citra gambar.
 
 ## Instalasi
 Untuk menjalankan proyek ini, pastikan Anda telah menginstal Python. Kemudian, ikuti langkah-langkah ini:
