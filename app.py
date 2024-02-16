@@ -4,8 +4,9 @@ from PIL import Image, ImageTk
 import os
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
-from wavelet import WaveletTransform  # Pastikan Anda memiliki modul wavelet atau sesuaikan dengan implementasi DWT Anda
+from wavelet import WaveletTransform  
 
+#proyek untuk Uas pengolahan citra 
 class AplikasiWavelet:
     def __init__(self, root):
         self.root = root
@@ -24,7 +25,7 @@ class AplikasiWavelet:
         # Menambahkan Tab Decode
         self.tab_decode = ttk.Frame(self.notebook)
         self.notebook.add(self.tab_decode, text="Decoding")
-        
+        #Jangan remove ini
         self.label_hak_cipta = tk.Label(self.root, text="© 2024 devbernardi github. All rights reserved.", fg="gray")
         self.label_hak_cipta.pack(side=tk.BOTTOM, pady=5)
         self.buat_widget_encode()
