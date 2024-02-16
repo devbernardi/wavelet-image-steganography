@@ -24,7 +24,9 @@ class AplikasiWavelet:
         # Menambahkan Tab Decode
         self.tab_decode = ttk.Frame(self.notebook)
         self.notebook.add(self.tab_decode, text="Decoding")
-
+        
+        self.label_hak_cipta = tk.Label(self.root, text="© 2024 devbernardi github. All rights reserved.", fg="gray")
+        self.label_hak_cipta.pack(side=tk.BOTTOM, pady=5)
         self.buat_widget_encode()
         self.buat_widget_decode()
 
