@@ -142,6 +142,7 @@ class AplikasiWavelet:
                 messagebox.showwarning("Peringatan", "Masukkan text sebelum melakukan encoding.")
         else:
             messagebox.showwarning("Peringatan", "Pilih gambar terlebih dahulu.")
+            #https://github.com/devbernardi/wavelet-image-steganography
 
     def decode_gambar(self):
         if hasattr(self, 'path_gambar_decode'):
